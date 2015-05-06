@@ -108,11 +108,14 @@ nav li {
         margin-top: 0.2em;
     }
 
-pre {
+pre, code {
     font-family: "PT Mono", "Courier New", Courier, monospace;
     font-size: 0.9em;
-    line-height: 1.3em;
     color: #D50085;
+}
+
+pre {
+    line-height: 1.3em;
     margin: 2em 0;
 }
 
@@ -147,8 +150,7 @@ pre {
     padding: 0.5em;
     margin: 1em 0;
     font-size: 0.9em;
-  word-wrap: break-word;
-
+    word-wrap: break-word;
 }
 
     .comments div:nth-child(odd) {
@@ -161,14 +163,14 @@ pre {
         padding-right: 1.5em;
     }
 
-    .comments p, .comments h4 {
-        margin: 1em;
-        line-height: 1.4em;
-    }
+.comments p, .comments h4 {
+    margin: 1em;
+    line-height: 1.4em;
+}
 
-    .comments h4 {
-        line-height: 1em;
-    }
+.comments h4 {
+    line-height: 1em;
+}
 
 .footer-container {
     background: #3F5261;
@@ -178,10 +180,11 @@ pre {
 }
 
 
-.footer-container h4 {
-    color: #eee;
-    margin-top: 0;
-}
+    .footer-container h4 {
+        color: #eee;
+        margin-top: 0;
+    }
+
     .footer-container footer {
         margin: 1em;
     }
@@ -195,6 +198,7 @@ pre {
     .footer-container li {
         display: inline;
     }
+
     .footer-container a {
         display: inline-block;
         background: #337791;
@@ -204,9 +208,9 @@ pre {
         margin-bottom: 0.3em;
     }
 
-    .footer-container a:hover {
-        background: #02BCDC;
-    }
+        .footer-container a:hover {
+            background: #02BCDC;
+        }
 
     .footer-container footer > p {
         clear: both;
@@ -275,9 +279,9 @@ pre {
         float: left;
     }
 
-    .footer-container div:first-child h4, .footer-container div:first-child p {
-        margin-right: 2em;
-    }
+        .footer-container div:first-child h4, .footer-container div:first-child p {
+            margin-right: 2em;
+        }
 
     .footer-container div:last-child {
         width: 30%;
