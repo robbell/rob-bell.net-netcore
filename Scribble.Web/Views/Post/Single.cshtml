@@ -27,7 +27,7 @@
 </section>
 
 <section class="comments">
-    <h2>@Model.Comments.Count() comments</h2>
+    <h2>@(Model.Comments.Any() ? Model.Comments.Count().ToString() : "No") comments</h2>
 
     @foreach (var comment in Model.Comments)
     {
