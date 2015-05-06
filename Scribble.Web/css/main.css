@@ -1,0 +1,317 @@
+/*! Rob Bell's Theme | http://rob-bell.net/ */
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Styles */
+
+::-moz-selection {
+    background: #C8E6FD;
+    text-shadow: none;
+}
+
+::selection {
+    background: #C8E6FD;
+    text-shadow: none;
+}
+
+body {
+    background: #fff;
+    border-top: 1em solid #DAEFFE;
+    font: 1em/2em 'Lora', Georgia, Times, serif;
+    color: #494B4B;
+}
+
+a {
+    color: #494B4B;
+    border-bottom: 1px solid #02BCDC;
+    text-decoration: none;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+    a:hover {
+        color: #02BCDC;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: Raleway, Arial, sans-serif;
+    color: #585A5A;
+}
+
+/* Mobile: Header */
+.title {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(../img/site-name.png);
+    background-image: -webkit-image-set(url(../img/site-name.png) 1x, url(../img/site-name-2x.png) 2x);
+    width: 181px;
+    height: 34px;
+}
+
+    .title a {
+        text-indent: -9999px;
+        display: block;
+        width: 181px;
+        height: 34px;
+        border: 0;
+    }
+
+.header-container header {
+    margin: 1em 1em 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Raleway, "Trebuchet MS", Arial, Sans-Serif;
+    color: #333;
+    border: 0;
+    margin-left: 1em;
+    display: inline-block;
+}
+
+/* Mobile: Menu */
+
+nav ul {
+    list-style-type: none;
+    margin-left: -1em;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+/* Mobile: Main */
+
+.main {
+    margin: 0 1em;
+}
+
+    .main h1 {
+        line-height: 1.2em;
+        margin-top: 0.2em;
+    }
+
+pre {
+    font-family: "PT Mono", "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    color: #D50085;
+    margin: 2em 0;
+}
+
+.meta {
+    background: #eee;
+    font-size: 0.9em;
+    padding: 0.5em;
+}
+
+    .meta h4, .meta p {
+        padding: 0;
+        margin: 0;
+        line-height: 1.5em;
+        display: table-cell;
+    }
+
+    .meta h4 {
+        float: left;
+        margin-right: 0.5em;
+    }
+
+    .meta div {
+        margin: 0.5em 1em;
+    }
+
+        .meta div:last-child {
+            border: 0;
+        }
+
+.comment {
+    background: #E9F5F8;
+    padding: 0.5em;
+    margin: 1em 0;
+    font-size: 0.9em;
+}
+
+    .comment:nth-child(odd) {
+        background: #E2F2FE url(../img/comment-left-bg.png) no-repeat bottom left;
+        padding-left: 1.5em;
+    }
+
+    .comment:nth-child(even) {
+        background: #E2F2FE url(../img/comment-right-bg.png) no-repeat bottom right;
+        padding-right: 1.5em;
+    }
+
+    .comment p, .comment h4 {
+        margin: 1em;
+        line-height: 1.4em;
+    }
+
+    .comment h4 {
+        line-height: 1em;
+    }
+
+.footer-container {
+    background: #3F5261;
+    color: #ddd;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+
+.footer-container h4 {
+    color: #eee;
+    margin-top: 0;
+}
+    .footer-container footer {
+        margin: 1em;
+    }
+
+    .footer-container ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .footer-container li {
+        display: inline;
+    }
+    .footer-container a {
+        display: inline-block;
+        background: #337791;
+        color: #eee;
+        border: 0;
+        padding: 0.3em;
+        margin-bottom: 0.3em;
+    }
+
+    .footer-container a:hover {
+        background: #02BCDC;
+    }
+
+    .footer-container footer > p {
+        clear: both;
+    }
+
+/* Media Queries */
+
+@media only screen and (min-width: 620px) {
+    .header-container header {
+        margin: 2em 2em 0;
+    }
+
+    .header-container h1 {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        margin-top: 0.2em;
+    }
+
+    .main {
+        margin: 1em 2em;
+    }
+
+    .meta {
+        padding: 0 0.5em;
+    }
+
+        .meta .date, .meta .category {
+            width: 25%;
+        }
+
+        .meta .tags {
+            width: 50%;
+        }
+
+        .meta div {
+            float: left;
+            padding: 0;
+            margin: 0;
+        }
+
+        .meta h4 {
+            float: none;
+            display: block;
+            margin: 1em 1em 0.5em;
+        }
+
+        .meta p {
+            float: none;
+            display: block;
+            margin: 0.5em 1em 1em;
+        }
+
+    .footer-container footer {
+        margin: 1em 2em;
+    }
+
+    .footer-container h4 {
+        margin-top: 1em;
+    }
+
+    .footer-container div:first-child {
+        width: 70%;
+        float: left;
+    }
+
+    .footer-container div:first-child h4, .footer-container div:first-child p {
+        margin-right: 2em;
+    }
+
+    .footer-container div:last-child {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    .header-container header {
+        width: 660px;
+        margin: 2em auto 0;
+    }
+
+    .footer-container footer {
+        width: 660px;
+        margin: 1em auto;
+    }
+
+    .main {
+        width: 660px;
+        margin: 1em auto;
+    }
+}
+
+/* Helper classes */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
