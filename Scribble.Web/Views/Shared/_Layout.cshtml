@@ -1,10 +1,78 @@
-﻿<!DOCTYPE html>
-
-<html>
+﻿<!doctype html>
+<html class="no-js" lang="en-GB">
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Rob Bell</title>
+    <meta name="description" content="Rob Bell's software development blog, discussing object-oriented programming, design and best practices, amongst other things.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
-    @RenderBody()
+    <div class="header-container">
+        <header class="clearfix">
+            <h1 class="title"><a href="#">Rob Bell</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/">New things</a></li>
+                    <li><a href="/categories/articles">Articles</a></li>
+                    <li><a href="/categories/projects">Projects</a></li>
+                    <li><a href="/about">About me</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="main-container">
+        <div class="main clearfix">
+            @RenderBody()
+        </div>
+    </div>
+
+    <div class="footer-container clearfix">
+        <footer class="wrapper clearfix">
+            <div class="about">
+                <h4>About</h4>
+                <p>
+                    Rob Bell is a software developer from London specialising in web development with an interest in most things nerdy.
+                </p>
+            </div>
+            <div class="external">
+                <h4>More</h4>
+                <ul>
+                    <li><a href="#">Contact me</a></li>
+                    <li><a href="#">RSS</a></li>
+                    <li>
+                        <a href="#">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+            <p>&copy; Rob Bell 2008-2015</p>
+        </footer>
+    </div>
+
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>-->
+
 </body>
 </html>

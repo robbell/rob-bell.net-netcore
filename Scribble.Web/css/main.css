@@ -142,29 +142,29 @@ pre {
             border: 0;
         }
 
-.comment {
+.comments div {
     background: #E9F5F8;
     padding: 0.5em;
     margin: 1em 0;
     font-size: 0.9em;
 }
 
-    .comment:nth-child(odd) {
+    .comments div:nth-child(odd) {
         background: #E2F2FE url(../img/comment-left-bg.png) no-repeat bottom left;
         padding-left: 1.5em;
     }
 
-    .comment:nth-child(even) {
+    .comments div:nth-child(even) {
         background: #E2F2FE url(../img/comment-right-bg.png) no-repeat bottom right;
         padding-right: 1.5em;
     }
 
-    .comment p, .comment h4 {
+    .comments p, .comments h4 {
         margin: 1em;
         line-height: 1.4em;
     }
 
-    .comment h4 {
+    .comments h4 {
         line-height: 1em;
     }
 
