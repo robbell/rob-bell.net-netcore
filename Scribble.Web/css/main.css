@@ -147,6 +147,8 @@ pre {
     padding: 0.5em;
     margin: 1em 0;
     font-size: 0.9em;
+  word-wrap: break-word;
+
 }
 
     .comments div:nth-child(odd) {
