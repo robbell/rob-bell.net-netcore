@@ -93,6 +93,10 @@ nav li {
     margin-left: 1em;
 }
 
+.meta, .comments div {
+    font-size: 0.9em;
+}
+
 /* Mobile: Main */
 
 .main-container {
@@ -108,6 +112,10 @@ pre, code {
 pre {
     line-height: 1.5em;
     margin: 1.1em 0;
+}
+
+article:not(:last-child) {
+    margin-bottom: 2em;
 }
 
 /* Mobile: Meta */
@@ -152,7 +160,7 @@ pre {
 }
 
 .comments p {
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 .comments h4 {
@@ -164,6 +172,11 @@ pre {
 
 .footer-container {
     margin: 1em;
+}
+
+.footer-container footer {
+    padding-top: 1em;
+    border-top: 1px dashed #70828F;
 }
 
     .footer-container ul {
@@ -244,7 +257,7 @@ pre {
             float: left;
         }
 
-            .footer-container div:first-child h4, .footer-container div:first-child p {
+            .footer-container .about h4, .footer-container .about p {
                 margin-right: 2em;
             }
 
