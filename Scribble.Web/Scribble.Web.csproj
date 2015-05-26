@@ -176,6 +176,7 @@
     <Content Include="apple-touch-icon.png" />
     <Content Include="browserconfig.xml" />
     <Content Include="css\main.css" />
+    <Content Include="css\main.min.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\normalize.min.css" />
     <Content Include="favicon.ico" />
@@ -184,7 +185,6 @@
     <Content Include="img\comment-right-bg.png" />
     <Content Include="img\site-name-2x.png" />
     <Content Include="img\site-name.png" />
-    <Content Include="js\main.js" />
     <Content Include="js\vendor\jquery-1.11.2.min.js" />
     <Content Include="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
     <Content Include="tile-wide.png" />
