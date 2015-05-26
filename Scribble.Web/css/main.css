@@ -214,7 +214,7 @@ article:not(:last-child) {
         margin: 2em 2em 0;
     }
 
-        .header-container h1 {
+        .header-container .title {
             float: left;
         }
 
