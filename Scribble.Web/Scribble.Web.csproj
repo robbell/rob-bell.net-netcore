@@ -186,7 +186,6 @@
     <Content Include="img\site-name-2x.png" />
     <Content Include="img\site-name.png" />
     <Content Include="js\vendor\jquery-1.11.2.min.js" />
-    <Content Include="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
     <Content Include="tile-wide.png" />
     <Content Include="tile.png" />
     <Content Include="Web.config" />
