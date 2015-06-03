@@ -19,9 +19,13 @@
 - [ ] Update MVC version
 
 ##rob-bell.net
-- [ ] Page titles
+- [ ] Page titles - head and h1s on list pages
+- [ ] Footer links
 - [ ] Route testing	
 - [ ] Privacy policy
 - [ ] Sitemap
 - [ ] Link labelled home on each home
 - [ ] H1 titles for front page and tag/category list pages
+- [ ] Hamburger menu for mobile
+- [ ] Trailing slash redirect
+- [ ] www. redirect
