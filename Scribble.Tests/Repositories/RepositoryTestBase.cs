@@ -9,8 +9,7 @@ namespace Scribble.Tests.Repositories
         {
             var store = new EmbeddableDocumentStore
             {
-                RunInMemory = true,
-                Configuration = { Storage = { Voron = { AllowOn32Bits = true } } }
+                RunInMemory = true
             }.Initialize();
 
             return store.OpenSession();
