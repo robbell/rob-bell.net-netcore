@@ -2,6 +2,10 @@
 @using Scribble.Web.Helpers
 @model Scribble.Web.ViewModels.PostViewModel
 
+@section Title {
+    @Model.Title
+}
+
 @helper LinkedTag(Tag tag)
 {
     @Html.ActionLink(tag.Name, "ByTag", new { tag.UrlName })
