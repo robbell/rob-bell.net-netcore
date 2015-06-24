@@ -301,3 +301,7 @@ article:not(:last-child) {
 .clearfix {
     *zoom: 1;
 }
+
+.hidden {
+    display: none;
+}
