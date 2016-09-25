@@ -29,11 +29,11 @@ textarea {
 body {
     background: #fff;
     font: 1em/2 'Merriweather', Georgia, Times, serif;
-    color: #555;
+    color: #666;
 }
 
 a {
-    color: #494B4B;
+    color: #666;
     border-bottom: 1px solid #02BCDC;
     text-decoration: none;
     -o-transition: .25s;
